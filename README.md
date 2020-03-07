@@ -49,34 +49,4 @@
     #传染性
     m.virus.transmissibility = -0.6  #反映病毒易感程度，正态分布概率  0 为 50%  1为100%
     m.virus.safe_distance = 10.0     #有概率被传染的范围
-    #人群特性参数
-    #人群获得性免疫 True治愈之后,有概率不会再感染
-    m.people.acquired_immunity = True
-    m.people.acquired_immunity_poss = 0.8 #免疫概率
-    #随机移动步长 越大每次移动范围越大
-    m.people.move_width = 10
-    #TODO区分人群限制移动
-
-    #病毒特性参数
-    """
-        病毒相关数据（并不准确）
-        病毒种类      致死率      潜伏期p1       确诊治疗期p2     
-        埃博拉        50%-90%    5-10           14-28
-        2019-nCorV   2%-4%      1-14           7-48
-        SARS         9.6%
-        甲型h1n1      1-4%
-        美国流感      0.05%
-    """
-    n = 3  #时间尺度系数
-    #p1  p2
-    m.virus.p1 = [int(5*n),int(10*n)]
-    m.virus.p2 = [int(7*n),int(28*n)]
-    m.virus._period1 = np.array([i+m.virus.p1[0] for i in range(m.virus.p1[1])])
-    m.virus._period2 = np.array([i+m.virus.p2[0] for i in range(m.virus.p2[0])])
-    #致死系数 越大致死能力越强   >=0
-    m.virus.lethality = 0.04
-    #治愈系数 越大越容易被治愈   >=0
-    m.virus.cure_rate = 1
-    #传染性
-    m.virus.transmissibility = -0.6  #反映病毒易感程度，正态分布概率  0 为 50%  1为100%
-    m.virus.safe_distance = 10.0     #有概率被传染的范围
+  
