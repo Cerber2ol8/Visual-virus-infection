@@ -2,7 +2,7 @@
 可视化病毒传播过程模型
 并非统计学模型，只是简单的过程模拟。 基于 [virusdemo](https://github.com/davycloud/virusdemo) 的可视化病毒传播过程
 
-![image](https://raw.githubusercontent.com/Cerber2ol8/Visual-virus-infection/master/pic1.png)
+![pic1](pic/pic1.png?raw=true)
 
 
     """
