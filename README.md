@@ -3,7 +3,8 @@
 并非统计学模型，只是简单的过程模拟。 基于 [virusdemo](https://github.com/davycloud/virusdemo) 的可视化病毒传播过程
 
 ![pic1](pic/pic1.png?raw=true)
-
+![pic2](pic/pic2.png?raw=true)
+![pic6](pic/pic6.png?raw=true)
 
     """
         模型建立在以下假设成立的条件下：    （没有进行严谨的统计学处理）
