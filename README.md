@@ -1,16 +1,7 @@
 # Visual-virus-infection
 可视化病毒传播过程模型
 并非统计学模型，只是简单的过程模拟。 基于 [virusdemo](https://github.com/davycloud/virusdemo) 的可视化病毒传播过程
-![image](https://github.com/Cerber2ol8/Visual-virus-infection/edit/master/17T5HQRXO{1](G]]%[`W)MC.png)
-(https://raw.githubusercontent.com/Cerber2ol8/Visual-virus-infection/master/99Z%FWX]4(YM8VLOZ3BNIET.png
-)
-(https://raw.githubusercontent.com/Cerber2ol8/Visual-virus-infection/master/AX140TF6VF3JLN_B0USV5O9.png
-)
-(https://raw.githubusercontent.com/Cerber2ol8/Visual-virus-infection/master/W@FXJ(1PM`93L[E[ZI}1{[M.png
-)
-(https://raw.githubusercontent.com/Cerber2ol8/Visual-virus-infection/master/YXKB8ZZV(T[@JV3(G]82SP6.png
-)
-(https://raw.githubusercontent.com/Cerber2ol8/Visual-virus-infection/master/}IXT77A8@I[TX9O6)~EPI7G.png
+
 )
 
     """
